@@ -1,0 +1,378 @@
+h2 {
+    font-size: 1.813rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font-size: 1.05rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.row{
+    max-width: none;
+}
+
+.pd-tb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pd-tb-40-20 {
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+
+
+
+/* CSS HEADER */
+
+.header {
+    background-color: #ffffff;
+}
+
+/* header-top */
+
+.row-1 {
+    align-items: center;
+    
+}
+
+.row.row-1 li {
+    line-height: 1.8;
+}
+
+.login ul li {
+    list-style: none;
+    text-align: right;
+}
+
+/* css for navbar */
+nav.navbar {
+    background: #ff8500;
+    text-transform: uppercase;
+    padding: 6px 0;
+}
+
+a.nav-link {
+    padding: 8px 15px !important;
+    color: #ffffff;
+}
+
+nav.navbar ul li a {
+    color: #ffffff;
+    padding: 8px 15px;
+}
+
+.current_page_item a,#menu-menu-chinh a:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+/* banner */
+.banner .container-fluid {
+    padding: 0;
+}
+
+/* gioi thieu */
+
+.gioithieu-sp h3 {
+    margin: 0 0 13px;
+}
+
+.gioi-thieu p {
+    text-align: justify;
+}
+
+.video.vd-gioithieu iframe {
+    width: 100%;
+    height: 340px;
+}
+
+/* xem-chi-tiet */
+.xem-chi-tiet{
+   /*  background-image: url(../images/bg-xemthem.jpg); */
+    padding: 40px 0;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.xem-chi-tiet:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.xem-chi-tiet .container {
+    z-index: 1;
+    position: relative;
+}
+
+.xem-chi-tiet h2 {
+    width: 100%;
+    color: #333333;
+    text-shadow: 0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%), 
+    0 0 2px rgb(255 255 255 / 60%)
+}
+
+.xem-chi-tiet button {
+    width: fit-content;
+    margin: auto;
+    background-color: #ff8500;
+    border: none;
+    padding: 10px 15px;
+}
+
+.xem-chi-tiet button:hover {
+    background-color: #ffffff;
+}
+
+.xem-chi-tiet button:hover a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.xem-chi-tiet button a {
+    color: #ffffff;
+}
+
+/* CONG DUNG SP */
+.cong-dung-left  {
+    text-align: right;
+}
+
+.cong-dung-sp h4 {
+    margin-bottom: 5px;
+}
+
+.cong-dung-left .col-md-3 {
+    padding: 0;
+    text-align: left;
+}
+
+.cong-dung-sp .row .row {
+    align-items: center;
+}
+
+.cong-dung-center{
+    padding: 0;
+}
+
+.lo-nho img {
+    width: 100%;
+}
+
+.cong-dung-right .col-md-3 {
+    padding: 0;
+    text-align: right;
+}
+
+/* ALBUM ANH */
+.hinhanh .container-fluid, .hinhanh .col-md-2 {
+    padding: 0;
+}
+
+/* CSS SAN PHAM */
+.sanpham h2 {
+    width: 100%;
+}
+.sanpham .item {
+    border: 1px solid #efefef;
+    padding: 8px;
+}
+
+.sanpham .ten-sp {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.sanpham .gia {
+    color: red;
+    font-weight: bold;
+}
+
+.sanpham .gia-cu {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.sanpham .item button.btn-info.btn-block {
+    margin-bottom: 0;
+    background: #dadada;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin: 15px 0 0;
+}
+
+.sanpham .item button a {
+    color: #000000;
+}
+
+.sanpham .item button:hover {
+    background-color:#ff8500 !important;
+}
+
+.sanpham .item button:hover a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sanpham .item img {
+    height: 200px;
+    object-fit: contain;
+}
+
+/* DANH GIA CUA KH */
+.khach-hang {
+    /* background-image: url(../images/bg-danhgia.jpg); */
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: 0px center;
+    background-repeat: no-repeat;
+}
+
+.khach-hang:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.khach-hang .container {
+    position: relative;
+    z-index: 1;
+}
+
+#slide-kh {
+    margin: auto;
+}
+
+.khach-hang .carousel-item {
+    text-align: center;
+}
+
+.khach-hang .carousel-item img {
+    border-radius: 50%;
+}
+
+.noi-dung-nx {
+    margin-top: 20px;
+}
+
+.noi-dung-nx h3, .noi-dung-nx p {
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.khach-hang .carousel-indicators {
+    bottom: -50px;
+}
+
+._1tin {
+    text-align: center;
+}
+
+._1tin .title-tin {
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+    background: none;
+    margin: 20px;
+    padding: 40px 0;
+    box-shadow: 0px 0px 10px 0px #54545426;
+}
+
+footer.footer h4 {
+    margin-bottom: 15px;
+}
+
+footer.footer li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-bottom: 1px dotted #ddd;
+}
+
+footer.footer .row>.col-md-3:first-child li {
+    border-bottom: none;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    #slide1 img {
+        height: 300px;
+    }
+
+
+    .video.vd-gioithieu iframe {
+        height: 260px;
+    }
+
+    .hd-top-left, .hd-top-right {
+        display: none;
+     }
+
+    .logo img {
+        width: 25%;
+    }
+
+    button.navbar-toggler {
+      margin-bottom: 0;
+    }
+
+    
+
+    .cong-dung-left {
+        display: none;
+    }
+
+    .cong-dung-right {
+        margin:  30px 0;
+    }
+
+    .cong-dung-right row {
+        margin-bottom:  20px;
+    }
+
+    .cong-dung-right .col-md-3 {
+        width: 18%;
+    }
+
+    .cong-dung-right .col-md-9 {
+        width: 82%;
+    }
+}
